@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie6 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 7 ]><html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie7 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 8 ]><html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie8 lte8 lte9"><![endif]-->
+<!--[if IE 9 ]><html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie9 lte9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js"><!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<!--[if IE]><meta http-equiv="imagetoolbar" content="no" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+<meta name="author" content="WebDevEric.com" />
+<meta name="viewport" content="width=device-width" />
+<title>Draw the Lonely Planet logo with SVG animate</title>
+<style>
+html,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #DBE6EC;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+}
+
+svg{
+    width: 85vmin;
+    flex: 0 1 auto;
+}
+</style>
+</head>
+<body>
+
+<svg version="1.1" viewBox="0 0 365.09494 180.9375">
+    <!--
+        For browsers that doesn't support the animate tag, like the Android browser,
+        lets make the default appearance of the image the desired end state of the animation.
+        To get the outlined text to draw in, the fill and stroke-width need to be reset to the initial state of the desired effect.
+    -->
+    <g id="logo">
+        <path
+            id="text"
+            d="m316.50963,88.629965c2.16964-7.79947,13.43278-8.13596,15.94558,0zm-63.6482,10.889755c-4.60134,0-8.33232-3.743795-8.33232-8.324775,0-4.58347,3.73098-8.3229,8.33232-8.3229,4.58418,0,8.32452,3.73943,8.32452,8.3229,0,4.58098-3.74034,8.324775-8.32452,8.324775zm-48.61197,0c-4.59509,0-8.34167-3.743795-8.34167-8.324775,0-4.58347,3.74658-8.3229,8.34167-8.3229,4.58418,0,8.32453,3.73943,8.32453,8.3229,0,4.58098-3.74035,8.324775-8.32453,8.324775zm159.78809-3.649385-0.59116,0.52156c-2.33342,1.89433-5.8008,1.31139-7.01587-1.30048-1.24626-3.73944-0.60051-7.75881-0.60051-11.73862h8.05468v-11.75856h-8.05468v-8.02037h-12.71217v20.41795c-2.29131-5.50898-5.75245-8.68245-11.18983-11.17561-10.90283-3.86001-21.32213,0.67968-26.12312,11.17561-1.88889-5.50898-4.7464-8.8845-10.05276-11.37953-10.54096-3.69862-20.68886,0.68467-24.35121,11.37953-2.89338-6.71693-7.08294-10.24948-14.2813-12.22108-9.70025-1.60956-17.9499,2.61063-22.21433,11.37346v-27.45143h-13.16762v27.45143c-1.64401-3.29404-3.42059-5.62893-6.26874-7.9579-13.48894-9.77169-31.24074-0.0365-31.56518,16.39811v34.812855h13.12551c0-3.50218-0.40554-17.12952-0.40554-17.12952l1.45059,0.60849c9.82035,2.48958,19.84347-2.4578,23.66336-10.12828v11.8134h13.16762v-11.8134c3.7809,8.03128,11.02138,12.65494,19.99009,12.00922,4.149,0.26966,7.61326-10.69004,7.62574-7.64618l0.006,7.64618h8.79557l12.79484-0.19582v-24.148365c0-5.02044,8.24965-5.45368,8.67859-0.31468,0.10139,7.89699,0.0795,16.708435,0.0795,24.463045h12.92898v-12.622855c2.38178,5.393395,5.55904,8.518265,10.83264,11.093525,10.42866,3.39266,21.30653,1.73621,25.37443-10.966875l-10.99798-1.77998c-2.52528,3.785075-11.55794,4.592505-14.41857-2.9289h26.52243c0,6.236185,0.12166,10.964535,5.75713,15.059935,5.63859,4.10335,15.76933,0.16436,15.64923-2.49191l-0.48665-11.053955zm-252.62623-6.58-16.178459,0c2.5103-8.21526,13.574879-8.35827,16.178459,0zm-79.853179,10.00911c-4.59291,0-8.32483-3.74551-8.32483-8.32773,0-4.5841,3.73192-8.32353,8.32483-8.32353,4.59401,0,8.33248,3.73943,8.33248,8.32353,0,4.58222-3.73847,8.32773-8.33248,8.32773zm88.652489,0.228065-10.89409-1.639935c-5.51287,4.168465-11.801889,2.006965-13.796689-3.53131h26.467369v17.205085h13.15327v-8.84198c2.17885,8.75972,13.00354,11.73675,19.15482,5.18776,0,1.92595-0.20167,4.17874-0.80172,6.03039-1.96984,4.73442-8.56114,4.73442-11.97564,1.56407l-7.75802,10.01019c4.94808,3.89771,9.95761,5.78114,16.35394,5.1848,5.27454-0.52515,8.62291-1.45627,12.64245-5.06905,3.05404-3.414,4.50619-6.95559,4.70116-11.53174v-42.721835h-12.9257v24.42939c0,4.424095-6.48415,4.464755-6.48415,0v-24.42939h-12.90714v-15.68119h-13.15327v28.29905c-4.22965-9.04574-12.22646-13.71022-22.24739-12.30442-7.209129,1.60956-12.323479,5.58749-15.096449,12.30442-2.49564-7.96257-8.37646-12.17668-16.57979-12.61786-8.69637,0-15.17614,4.25664-17.78705,12.61786-4.39171-9.64706-13.16357-14.31138-23.61953-11.94113-6.28184,1.96552-10.07037,5.26673-12.92607,11.09351v-27.45143h-13.15696059v55.868585h13.15696059v-12.538885c3.74352,7.478865,9.98746,11.611965,18.34926,11.778185,8.89618-0.52343,14.60714-4.74346,18.19634-12.622845v13.383545h12.67255v-24.103965c0.48743-5.26565,8.49781-5.42377,8.98524,0v24.103965h12.70905v-12.622855c2.93067,6.470485,7.51984,10.372395,14.4128,12.140235,15.092069,1.42402,21.069759-8.93934,21.154449-11.55121z"
+            fill="#206FAC" 
+            stroke="#206FAC"
+            stroke-width="0"
+            stroke-dasharray="1000">
+
+            <animate attributeName="fill" from="transparent" to="transparent" begin="0s; logo.click" />
+            <animate attributeName="stroke-width" from="0.5" to="0" begin="0s; logo.click" />
+            <animate id="drawOutline1" attributeName="stroke-dashoffset" from="1000" to="0" dur="2s" begin="0s; logo.click" fill="freeze" />
+            <animate attributeName="fill" from="transparent" to="#206FAC" dur="1s" begin="drawOutline1.end" fill="freeze" />
+            <animate attributeName="stroke-width" to="0" dur="2s" begin="drawOutline1.end" fill="freeze" />
+        </path>
+        <path
+            id="circles"
+            d="m179.63059,170.2796c-34.58444,0-63.92522-21.53765-74.82789-52.13031l-4.55564,1.53525-4.526309,1.55908c11.910909,34.6284,44.967859,59.12602,83.934789,59.12602,38.76198,0,71.85574-24.75015,83.95648-58.98722l-9.02954-3.37007c-10.99174,30.38874-40.46994,52.26725-74.95189,52.26725zm0.0671-159.413625c34.58958,0,63.92895,21.92766,74.83802,53.09485l4.55143-1.56578,4.52491-1.59133c-11.90889-35.26914-44.95429-60.2179104-83.94088-60.2179104-38.75777,0-71.85293,25.2055004-83.950389,60.0792604l9.033899,3.42896c10.97942-30.95159,40.45668-53.22805,74.94301-53.22805"
+            fill="#206FAC" 
+            stroke="#206FAC"
+            stroke-width="0"
+            stroke-dasharray="1000">
+
+            <animate attributeName="fill" from="transparent" to="transparent" begin="0s; logo.click" />
+            <animate attributeName="stroke-width" from="0.5" to="0" begin="0s; logo.click" />
+            <animate id="drawOutline2" attributeName="stroke-dashoffset" from="1000" to="0" dur="2s" begin="0s; logo.click" fill="freeze" />
+            <animate attributeName="fill" from="transparent" to="#206FAC" dur="1s" begin="drawOutline2.end" fill="freeze" />
+            <animate attributeName="stroke-width" to="0" dur="2s" begin="drawOutline2.end" fill="freeze" />
+        </path>
+    </g>
+</svg>
+
+</body>
+</html>
